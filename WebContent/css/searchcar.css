@@ -1,0 +1,432 @@
+@charset "utf-8";
+#wrap {
+   float: left;
+   height: auto;
+   width: 1920px;
+   
+}
+/*상단*/
+#top {
+   float: left;
+   height: auto;
+   width: 100%;
+}
+.topimg {
+   float: left;
+   height: 83px;
+   width: 208px;
+   margin-left: 860px;   
+}
+.topnav {
+   background-color: #555555;
+   float: left;
+   height: 67px;
+   width: 1920px;
+}
+/*중단*/
+#center {
+   float: left;
+   width: 1520px;
+   height: 1400px;
+   margin-left: 40px;
+}
+#centerimg {
+   float: left;
+   height: 213px;
+   width: 1920px;
+   background-image: url(../img/centerimg.png);
+}
+#sidebar {
+   float: left;
+   height: auto;
+   width: 200px;
+   font-size: 25px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+/*사이드바*/
+#sidemenu {
+   float: left;
+   height: auto;
+   width: 200px;
+}
+#side {
+   float: left;
+   height: auto;
+   width: 200px;
+   border-right-width: 1px;
+   border-right-style: solid;
+   border-right-color: #999;
+}
+
+/*표*/
+#notice {
+   float: left;
+   height: auto;
+   width: 900px;
+   margin-left: 5px;
+   padding-left: 30px;
+}
+#noticetop {
+   margin-top: 10px;
+   float: left;
+   height: 40px;
+   width: 1200px;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #666;
+   background-image: url(../img/무늬.png);
+   background-repeat: repeat-x;
+   background-position: center;
+   margin-left: 250px;
+}
+/*하단*/
+#footer {
+   float: left;
+   height: 107px;
+   width: 1420px;
+   margin-top: 100px;
+   margin-left : 500px;
+   z-index: 5;
+}
+/*상단바*/
+
+*{padding:0;
+margin:0;}
+li{
+   list-style:none;}
+a{
+   text-decoration:none;
+color: #fff;
+}
+
+#topmenu {
+   font: bold 16pt "malgun gothic";
+    width: 800px;
+    height: 67px;
+    color: black;
+    line-height: 65px;
+    margin: 0 auto;
+    text-align: center;
+}
+#topmenu > ul > li {
+      float:left;
+      width:250px;
+      position:relative;      
+}
+#topmenu > ul > li > ul {
+      width:250px;
+      display:none;
+      position: absolute;
+      font-size:12pt;
+      background: #555555;
+
+}
+#topmenu > ul > li:hover > ul {
+   display:block;
+   
+}
+
+#topmenu > ul > li > ul > li:hover {
+      background: #666;
+      transition: ease 1s;
+}
+
+/*버튼,텍스트 필드*/
+.search {
+   float: right;
+   height: 50px;
+   width: 250px;
+}
+#searchtab{
+   height: 30px;
+   width: 150px;
+   float: left;
+   border: 1px solid #1b5ac2;
+   background: #fff;
+}
+#searchbtn{
+   width: 25px;
+   height: 30px;
+   float: left;
+   color: #ffffff
+}
+
+#titlefield{
+   height: 30px;
+   width: 400px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#namefield{
+   height: 30px;
+   width: 200px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#memo{
+   height: 250px;
+   width: 622px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#okbtn{
+   width: 120px;
+   height: 30px;
+   color: #000;
+   border: 1px solid #3cf;
+   background-color:#fff;
+   border-radius:10px;
+   cursor : pointer;   
+}
+#okbtn :hover{
+   color:#ccc;
+   }
+#send{
+   width: 120px;
+   height: 30px;
+   color: #000;
+   border: 1px solid #3cf;
+   background-color:#fff;   
+   border-radius:10px;
+}
+#qnatitle{
+   color:#000;
+}
+
+#faqmain {
+   float: left;
+   height: auto;
+   width: 900px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #ccc;
+   text-decoration:none;
+}
+#summary{
+   height:50px;
+   cursor:pointer;
+   font-size:16pt;
+   
+
+}
+#par{
+   width:auto;
+   height:auto;
+   border: 30px solid #DCDCDC   ;
+   font-size:12pt;
+}.information {
+   float: left;
+   height: 1600px;
+   width: 1200px;
+   text-align: left;
+   font-family: "맑은 고딕";
+   margin-left: 250px;
+}
+.option {
+   float: left;
+   height: 10px;
+   width: 100%;
+   margin-top: 10px;
+   color: #029AFF;
+}
+.carname {
+   float: left;
+   height: 30px;
+   width: 100%;
+   margin-top: 30px;
+   font-size: 18px;
+   font-weight: bold;
+   margin-left: 30px;
+   color: #000200;
+}
+.searchcartop {
+   height: 40px;
+   width: 300px;
+   margin-top: 0px;
+   margin-right: auto;
+   margin-bottom: 0px;
+   margin-left: auto;
+   background-color: #FFF;
+   display: inline-block;
+   white-space: nowrap;
+}
+.searchbar {
+   float: left;
+   height: 50px;
+   width: 1200px;
+   margin-top: 20px;
+   border: 1px solid #2F0100;
+   background-color: #D5D5D5;
+}
+
+.carmodel {
+   height: 40px;
+   width: 200px;
+}
+#wrap #center #notice .information .searchbar select {
+   font-size: 16px;
+   height: 35px;
+   width: 200px;
+   margin-top: 7.5px;
+   margin-left: 400px;
+   float: left;
+}
+.searchbtn {
+   float: left;
+   height: 30px;
+   width: 150px;
+   margin-top: 7.5px;
+   margin-left: 30px;
+   color: #FFF;
+   z-index: 5;
+   background-color: #09f;
+   border: 1px groove #09f;
+   text-align: center;
+   font-weight: bold;
+}
+.carlist {
+   height: 1400px;
+   width: 1200px;
+   float: left;
+   margin-top: 20px;
+   margin-left: 28px;
+}
+
+@font-face { font-family: 'GoyangIlsan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+body {
+    background-color: #fff;
+    font-family: 'GoyangIlsan'
+}
+
+.box {
+  position: relative;
+  background: #000;
+  width: 348px; height: 400px;
+  cursor: pointer;
+  overflow: hidden;
+  float: left;
+  margin-right: 50px; 
+  margin-top: 10px;
+  border: 1px solid #d5d5d5; 
+}
+.box img {
+  width: 100%; display: block;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  transform: scale(1);
+  transition: all 0.35s ease;
+}
+.box .info {
+  position: absolute; left: 0; bottom: 0;
+  z-index: 10; color: #fff;
+  background: rgba(0,0,0,0.6);
+  width: 100%; height: 100%;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.35s ease;
+}
+.box .info h3 {
+   font-size: 20px;
+   color: #fff;
+   position: absolute;
+   left: 10px;
+   top: 10px;
+   white-space: nowrap;
+   overflow: visible;
+}
+.box .info p {
+  font-size: 14px; color: #fff;
+  position: absolute; right: 10px; bottom: 10px;
+}
+.box:hover .info {
+  opacity: 1;
+  transform: scale(1);
+}
+.box:hover img {
+  transform: scale(1.2);
+}
+.carname {
+   float: left;
+   height: 10px;
+   width: 10px;
+   margin-top: 35px;
+   margin-left: 10px;
+   font-size: 20px;
+   color: #000000;
+   z-index: 5;
+   position: absolute;
+   font-weight: bold;
+   white-space: nowrap;
+   overflow: visible;
+}
+.box:hover .carname{
+   opacity: 0;   
+}
+.options {
+   float: left;
+   height: 100px;
+   width: 200px;
+   margin-top: 60px;
+   margin-left: 10px;
+   font-size: 12px;
+   color: #2080FF;
+   z-index: 5;
+   position: absolute;
+   font-weight: bold;
+}
+.option {
+   float: left;
+   height: 10px;
+   width: 150px;
+   font-size: 12px;
+   color: #2080FF;
+   z-index: 5;
+   position: absolute;
+   font-weight: bold;
+}
+.box:hover .option{
+   opacity: 0;
+   }
+
+.caroptions {
+   float: left;
+   height: 100px;
+   width: 200px;
+   margin-top: 60px;
+   margin-left: 10px;
+}
+
+.numbering {
+	clear: both;
+	float: left;
+	height: 30px;
+	width: 1920px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.numbering a {
+	
+	color: #000;
+}
+
+#cnt {
+	text-align: center;
+}
+#titlefield{
+	margin-top: 7.5px;
+   height: 30px;
+   width: 200px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+   margin-left: 410px;
+}

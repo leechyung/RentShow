@@ -1,0 +1,347 @@
+@charset "utf-8";
+#center {
+   float: left;
+   width: 1520px;
+   height:auto;
+   margin-left: 400px;
+}
+#sidebar {
+   float: left;
+   height: auto;
+   width: 200px;
+   font-size: 25px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+#sidemenu {
+   float: left;
+   height: auto;
+   width: 200px;
+}
+#side {
+   float: left;
+   height: auto;
+   width: 200px;
+   border-right-width: 1px;
+   border-right-style: solid;
+   border-right-color: #999;
+}
+#noticetop {
+   margin-top:10px;
+   float: left;
+   height: 40px;
+   width: 900px;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #666;
+}
+#noticemain {
+   float: left;
+   height: auto;
+   width: 900px;
+}
+#sidemenu ul {
+   padding: 0px;
+   list-style-type: none;
+   margin-top: 12px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+}
+#sidemenu ul li {
+   padding-top: 10px;
+   padding-bottom: 5px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #dddddd;
+   text-align: left;
+}
+#sidemenu ul li :hover{
+   background-color: #39f;
+  transition: background-color .5s;
+}
+.rightcon table tr td {
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #CCC;
+}
+.rightcon table tr th {
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #666;
+}
+.noticeform{
+   float:left;
+   margin-left:110px;
+   
+}
+
+#sidemenu ul li a {
+   color: #000;
+   text-decoration: none;
+   background-position: 125px 4px;
+   display: block;
+   background-repeat: no-repeat;
+   padding-right: 40px;
+}
+#sidemenu ul li a:hover {
+   font-weight: bold;
+   color: #ffffff;
+   
+}
+
+#wrap {
+   float: left;
+   height: auto;
+   width: 1920px;
+   
+   
+}
+#top {
+   float: left;
+   height: auto;
+   width: 100%;
+}
+.topimg {
+   float: left;
+   height: 83px;
+   width: 208px;
+   margin-left: 860px;   
+}
+.topnav {
+   background-color: #555555;
+   float: left;
+   height: 67px;
+   width: 1920px;
+}
+
+#notice {
+   float: left;
+   height: auto;
+   width: 900px;
+   margin-left: 5px;
+}
+#footer {
+   float: left;
+   height: 107px;
+   width: 1420px;
+   margin-top: 120px;
+   margin-left : 500px;
+}
+/*상단바*/
+
+*{padding:0;
+margin:0;}
+li{list-style:none;}
+a{text-decoration:none;
+color: #fff;
+}
+
+#topmenu {
+   font: bold 16pt "malgun gothic";
+    width: 800px;
+    height: 67px;
+    color: black;
+    line-height: 65px;
+    margin: 0 auto;
+    text-align: center;
+}
+#topmenu > ul > li {
+      float:left;
+      width:250px;
+      position:relative;      
+}
+#topmenu > ul > li > ul {
+      width:250px;
+      display:none;
+      position: absolute;
+      font-size:12pt;
+      background: #555555;
+
+}
+#topmenu > ul > li:hover > ul {
+   display:block;
+   
+}
+
+#topmenu > ul > li > ul > li:hover {
+      background: #666;
+      transition: ease 1s;
+}
+.search {
+   float: right;
+   height: 50px;
+   width: 250px;
+}
+#searchtab{
+   height: 30px;
+   width: 150px;
+   float: left;
+   border: 1px solid #1b5ac2;
+   background: #fff;
+}
+#searchbtn{
+   width: 25px;
+   height: 30px;
+   float: left;
+   color: #ffffff
+}
+#noticeform tr td{
+   border: 0.5px solid #CCC;
+}
+#noticeform tr th {
+   border-top-width: 0.5px;
+   border-bottom-width: 0.5px;
+   border-left-width: 0.5px;
+   border-top-style: solid;
+   border-right-style: none;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #CCC;
+   border-bottom-color: #CCC;
+   border-left-color: #CCC;
+
+}
+#titlefield{
+   height: 30px;
+   width: 400px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#namefield{
+   height: 30px;
+   width: 200px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#memo{
+   height: 250px;
+   width: 622px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#okbtn{
+   width: 120px;
+   height: 30px;
+   color: #000;
+   border: 1px solid #999;
+   background-color:#fff;
+   border-radius:10px;
+   cursor : pointer;   
+}
+#managebtn1{
+   width: 40px;
+   height: 30px;
+   color: #000;
+   border: 1px solid #999;
+   background-color:#fff;
+   border-radius:10px;
+   cursor : pointer;   
+}
+
+#managebtn{
+   width: 40px;
+   height: 20px;
+   color: #000;
+   border: 1px solid #999;
+   background-color:#fff;
+   border-radius:5px;
+   cursor : pointer;   
+}
+
+#resultList {
+   border-radius:5px;
+   text-align:center;
+}
+
+#resultList tr th {
+   background-color: #CCC;
+   border: 1px solid #666;
+}
+#resultList tr td {
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #ccc;
+   border-top-color: #ccc;
+   border-left-color: #ccc;
+   border-right-color: #ccc;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+}
+#registerform {
+   border-top-width: 6px;
+   border-bottom-width: 5px;
+  
+}
+#black{
+   color:#000;
+}
+
+
+#registerform th {
+   height: 25px;
+   padding-top: 5px;
+   padding-left: 25px;
+   width: 100px;
+   text-align: left;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #dddddd;
+   background-color: #efefef;
+}
+#registerform tr td {
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #dddddd;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   text-align: left;
+}
+.tablestyle{
+   margin-left:158px;
+}
+.page_content .tablestyle {
+   float: left;
+   width: 680px;
+   text-align: center;   
+   padding-top: 20px;
+   padding-bottom: 20px;   
+}
+#a2{
+   color:#000;
+   font-size:16pt;
+   font-weight:bold;
+   text-align:center;
+}
+#registerform tr .btnstyle {
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+#centerimg {
+   float: left;
+   height: 213px;
+   width: 1920px;
+   background-image: url(../img/centerimg.png);
+}
+#registerform tr th {
+   border: thin solid #CCC;
+}
+#registerform tr td {
+   border: thin solid #CCC;
+}
+
+#t1{
+
+   float:left;
+   width:1920px;
+}

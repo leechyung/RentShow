@@ -1,0 +1,175 @@
+@charset "utf-8";
+.wrap {
+	float: left;
+	height: 1080px;
+	width: 1920px;
+	position: relative;
+	border: thin solid #D5D5D5;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	text-align: center;	
+}
+.toplogo {
+	height: 83px;
+	width: 208px;
+	position: absolute;
+	left: 50%;
+	top: 0%;
+	margin-left:-104px;
+	margin-top:40px;
+}
+.registerfield {
+	height: 1000px;
+	width: 500px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left:-250px;
+	margin-top:-400px;
+}
+.id {
+	float: left;
+	height: 100px;
+	width: 500px;
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	text-align: center;
+}
+.pw {
+	float: left;
+	height: 100px;
+	width: 500px;
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	text-align: center;
+}
+.pwcheck {
+	float: left;
+	height: 100px;
+	width: 500px;
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	text-align: center;
+}
+.name {
+	float: left;
+	height: 100px;
+	width: 500px;
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	text-align: center;
+}
+.birth {
+	float: left;
+	height: 100px;
+	width: 500px;
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	text-align: center;
+}
+.sex {
+	float: left;
+	height: 100px;
+	width: 500px;
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	text-align: center;
+}
+.phone {
+	float: left;
+	height: 100px;
+	width: 500px;
+	font-family: "맑은 고딕";
+	font-size: 16px;
+	text-align: center;
+}
+.wrap form .registerfield .id p input {
+	margin-left: 100px;
+	width: 250px;
+	height: 40px;
+	float: left;
+	border: 2px solid #D5D5D5;
+}
+
+
+.wrap form .registerfield .birth p #monthfield {
+	height: 45px;
+	width: 100px;
+	background-color: #FFF;
+	border: 2px solid #D5D5D5;
+}
+
+.wrap form .registerfield .sex p select {
+	height: 40px;
+	width: 300px;
+	background-color: #FFF;
+	border: 2px solid #D5D5D5;
+}
+
+
+.wrap form .registerfield .pw p input {
+	margin-left: 100px;
+	width: 300px;
+	height: 40px;;
+	float: left;
+	border: 2px solid #D5D5D5;
+}
+
+.wrap form .registerfield .name p input {
+	margin-left: 100px;
+	width: 300px;
+	height: 40px;
+	float: left;
+	border: 2px solid #D5D5D5;
+}
+.wrap form .registerfield .birth p input {
+	margin-left: 10px;
+	width: 91px;
+	height: 40px;
+	border: 2px solid #D5D5D5;
+}
+.wrap form .registerfield .phone p input {
+	margin-left: 100px;
+	width: 300px;
+	height: 40px;
+	float: left;
+	border: 2px solid #D5D5D5;
+}
+.send {
+	float: left;
+	height: 50px;
+	width: 500px;
+}
+.wrap form .registerfield .send input {
+	float: left;
+	height: 50px;
+	width: 300px;
+	margin-left: 100px;
+	margin-top: 15px;
+	font-family: "맑은 고딕";
+	color: #FFF;
+	background-color: #029AFF;
+	border: 2px solid #D5D5D5;
+}
+.footer {
+	float: left;
+	height: 107px;
+	width: 861px;
+	margin-top: 50px;
+	margin-left: -180px;
+}
+p #dayfield {
+	margin-left: -1px;
+}
+
+.registerfield .id p #idcheck {
+   float: left;
+   height: 45px;
+   width: 40px;
+   margin-left: 10px;
+   background-color: #FFF;
+   border: 2px solid #D5D5D5;
+}
+

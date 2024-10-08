@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>무제 문서</title>
+<link href="../css/register.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="wrap">
+<form name="frm" method="post" action="Join.jsp" name="frm">
+<div class="toplogo">
+  <img src="../img/topimg.png" width="208" height="83">
+  </div>
+  <div class="registerfield">
+    <div class="id">
+      <p> 아이디</p>
+      <p>
+     
+        <input name="cuserId" type="text" maxlength="12" placeholder="아이디를 입력">
+        <input type="button" onclick="idCheck()" id="idcheck" value="중복">
+       
+      </p>
+    </div>
+    <div class="pw">
+      <p>비밀번호  </p>
+      <p>
+        <input name="password" type="password" maxlength="20"placeholder="비밀번호">
+      </p>
+    </div>
+    <div class="name">
+      <p>이름  </p>
+      <p>
+        <input name="name" type="text" maxlength="6"placeholder="이름">
+      </p>
+    </div>
+    <div class="birth">
+      <p>생년월일
+  </p>
+      <p>
+          <input name="year" type="number" value="" maxlength="4" placeholder="년(4자)">
+          <select name="month" id="monthfield">
+            <option value="월" selected>월</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+          <input name="day" type="number" id="dayfield" value="" maxlength="2"placeholder="일">
+      </p>
+    </div>
+    <div class="phone">
+      <p>전화번호  </p>
+      <p>
+        <input name="phonenum" type="tel" maxlength="11"placeholder="전화번호를 입력">
+      </p>
+    </div>
+    <div class="sex">
+      <p>성별</p>
+      <p>
+  <select name="sex">
+    <option value="성별">성별</option>
+    <option value="남자">남자</option>
+    <option value="여자">여자</option>
+  </select>
+      </p>
+    </div>
+    <div class="send">
+       <input name="sendb" type="submit" value="회원가입" style="cursor:pointer">
+    </div>
+    <div class="footer"><img src="../img/footer.png" width="861" height="107"></div>
+  </div>
+ 
+</form>
+</div>
+
+<script type="text/javascript">
+function idCheck(){
+    var id = document.frm.cuserId.value;
+    if(id.length < 1 || id == null){
+        alert("중복체크할 아이디를 입력하십시오");
+        return false;
+    } 
+    var url = "idCheck.jsp?uid=" + id;
+    window.open(url, "get", "height = 180, width = 300");
+}
+</script>
+</body>
+</html>

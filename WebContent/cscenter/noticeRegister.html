@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>공지사항</title>
+<link href="../css/csdesign.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrap">
+  <div id="top">
+   <div class="topimg">
+   <img src="../img/topimg.png" width="208" height="83" style="cursor:pointer" onClick="location.href='../login/loginByAdmin.jsp'">
+   </div>
+  </div>
+  <div class="topnav">
+ <div id="topmenu">
+	<a>관리자모드입니다.</a>
+ </div>
+  </div>
+  <div id="centerimg"></div>
+  <div id="center">
+  <div id="side">
+  <div id="sidebar">고객센터</div>
+  <div id="sidemenu"><ul>
+            	<li><a href="#">공지사항</a></li>
+                <li><a href="#">QnA</a></li>
+                <li><a href="#">자주하는 질문</a>  </li>
+  </ul>
+  </div>
+  </div>
+  <div id="notice">
+    <div id="noticetop">공지사항</div>
+  <div id="noticemain">
+  <div class="noticeform">
+   <form action="noticeRegisterResult.jsp" method="post" >
+       <table width="680" border="0" cellpadding="0" cellspacing="0" id="noticeform">
+                      <tr>
+                        <th width="54"><label for="ntitle">제 목</label></th>
+                        <td width="626">
+                        <input name="ntitle" type="text" id="titlefield" size="70"></td>
+                      </tr>
+                      
+                      <tr>
+                        <th><label for="content">게시글</label></th>
+                        <td>
+                        <textarea name="ncontent" cols="70" rows="10" id="memo"></textarea></td>
+                      </tr>
+                      <tr>
+                       
+                      </tr>
+                      <tr>
+                        <td height="30" colspan="2" align="center" class="btnstyle"><input type="submit" id="okbtn" value="게시글 올리기">
+                        </td>
+                      </tr>
+</table>
+</form>
+              
+    </div></div>
+    </div>
+
+  
+</div>
+<div id="footer"><img src="../img/footer.png" width="861" height="107"></div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,290 @@
+@charset "utf-8";
+#wrap {
+   float: left;
+   height: auto;
+   width: 1920px;
+   
+}
+/*상단*/
+#top {
+   float: left;
+   height: auto;
+   width: 100%;
+}
+.topimg {
+   float: left;
+   height: 83px;
+   width: 208px;
+   margin-left: 860px;   
+}
+.topnav {
+   background-color: #555555;
+   float: left;
+   height: 67px;
+   width: 1920px;
+}
+/*중단*/
+#center {
+	float: left;
+	width: 1520px;
+	height: 1400px;
+	margin-left: 400px;
+}
+#centerimg {
+   float: left;
+   height: 213px;
+   width: 1920px;
+   background-image: url(../img/centerimg.png);
+}
+#sidebar {
+   float: left;
+   height: auto;
+   width: 200px;
+   font-size: 25px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+/*사이드바*/
+#sidemenu {
+   float: left;
+   height: auto;
+   width: 200px;
+}
+#side {
+   float: left;
+   height: auto;
+   width: 200px;
+   border-right-width: 1px;
+   border-right-style: solid;
+   border-right-color: #999;
+}
+
+#sidemenu ul {
+   padding: 0px;
+   list-style-type: none;
+   margin-top: 12px;
+   margin-right: 0px;
+   margin-bottom: 0px;
+   margin-left: 0px;
+}
+#sidemenu ul li {
+   padding-top: 10px;
+   padding-bottom: 5px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #dddddd;
+   text-align: left;
+}
+#sidemenu ul li :hover{
+   background-color: #39f;
+  transition: background-color .5s;
+}
+#sidemenu ul li a {
+   color: #000;
+   text-decoration: none;
+   background-position: 125px 4px;
+   display: block;
+   background-repeat: no-repeat;
+   padding-right: 40px;
+}
+#sidemenu ul li a:hover {
+   font-weight: bold;
+   color: #ffffff;
+   
+}
+
+/*표*/
+#notice {
+	float: left;
+	height: auto;
+	width: 900px;
+	margin-left: 5px;
+	padding-left: 30px;
+}
+#noticetop {
+   margin-top:10px;
+   float: left;
+   height: 40px;
+   width: 900px;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #666;
+}
+/*하단*/
+#footer {
+   float: left;
+   height: 107px;
+   width: 1420px;
+   margin-left : 500px;
+}
+/*상단바*/
+
+*{padding:0;
+margin:0;}
+li{
+   list-style:none;}
+a{
+   text-decoration:none;
+color: #fff;
+}
+
+#topmenu {
+   font: bold 16pt "malgun gothic";
+    width: 800px;
+    height: 67px;
+    color: black;
+    line-height: 65px;
+    margin: 0 auto;
+    text-align: center;
+}
+#topmenu > ul > li {
+      float:left;
+      width:250px;
+      position:relative;      
+}
+#topmenu > ul > li > ul {
+      width:250px;
+      display:none;
+      position: absolute;
+      font-size:12pt;
+      background: #555555;
+
+}
+#topmenu > ul > li:hover > ul {
+   display:block;
+   
+}
+
+#topmenu > ul > li > ul > li:hover {
+      background: #666;
+      transition: ease 1s;
+}
+
+/*버튼,텍스트 필드*/
+.search {
+   float: right;
+   height: 50px;
+   width: 250px;
+}
+#searchtab{
+   height: 30px;
+   width: 150px;
+   float: left;
+   border: 1px solid #1b5ac2;
+   background: #fff;
+}
+#searchbtn{
+   width: 25px;
+   height: 30px;
+   float: left;
+   color: #ffffff
+}
+
+#titlefield{
+   height: 30px;
+   width: 400px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#namefield{
+   height: 30px;
+   width: 200px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#memo{
+   height: 250px;
+   width: 622px;
+   float: left;
+   border: 1px solid #ccc;
+   background: #fff;
+}
+#okbtn{
+   width: 120px;
+   height: 30px;
+   color: #000;
+   border: 1px solid #3cf;
+   background-color:#fff;
+   border-radius:10px;
+   cursor : pointer;   
+}
+#okbtn :hover{
+   color:#ccc;
+   }
+#send{
+   width: 120px;
+   height: 30px;
+   color: #000;
+   border: 1px solid #3cf;
+   background-color:#fff;   
+   border-radius:10px;
+}
+#qnatitle{
+   color:#000;
+}
+
+#faqmain {
+   float: left;
+   height: auto;
+   width: 900px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #ccc;
+   text-decoration:none;
+}
+#summary{
+   height:50px;
+   cursor:pointer;
+   font-size:16pt;
+   
+
+}
+#par{
+   width:auto;
+   height:auto;
+   border: 30px solid #DCDCDC   ;
+   font-size:12pt;
+}.information {
+	float: left;
+	height: 500px;
+	width: 900px;
+	text-align: left;
+	font-family: "맑은 고딕";
+}
+
+
+
+.qualification {
+	background-image: url(../img/대여자격.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 374px;
+	width: 900px;
+}
+.process3 {
+	background-repeat: no-repeat;
+	float: left;
+	height: 420px;
+	width: 900px;
+	background-image: url(../img/대여절차.png);
+	margin-top: 20px;
+}
+.qualificationTop {
+   float: left;
+   height: 22px;
+   width: 1200px;
+   margin-top: 10px;
+}
+
+.price {
+	background-image: url(../img/요금.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 374px;
+	width: 900px;
+}
