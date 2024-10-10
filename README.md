@@ -1,6 +1,6 @@
 <h2 align="center">RentShow, Java / JSP 기반 렌트카 웹페이지 개발</h2>
 
-  ![biglogo](https://github.com/user-attachments/assets/09e8b9a8-0753-463f-8293-40e6b156e393)
+            ![biglogo](https://github.com/user-attachments/assets/09e8b9a8-0753-463f-8293-40e6b156e393)
 
 
 **프로젝트 주제** <br>
